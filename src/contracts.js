@@ -5,7 +5,7 @@ export class Sensor {
   }
 
   detect() {
-    throw new Error('Sensor.detect() must be implemented by subclasses');
+    throw new Error('Sensor.detect() doit etre implemente par une sous-classe');
   }
 }
 
@@ -15,7 +15,7 @@ export class Notifier {
   }
 
   notify(message, meta = {}) {
-    throw new Error('Notifier.notify() must be implemented by subclasses');
+    throw new Error('Notifier.notify() doit etre implemente par une sous-classe');
   }
 }
 
